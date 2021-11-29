@@ -1,7 +1,0 @@
-git init
-
-git remote add clone [lien github]
-
-git pull [lien github]
-
-(les documents de Jordan sont désormais visibles dans le dossier)
