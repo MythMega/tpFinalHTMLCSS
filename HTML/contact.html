@@ -22,28 +22,32 @@
             <a href="contact.html"><button>Contact</button></a>
         </nav>
     </header>
+    <!--- Contenu (PlaceHolder)-->
 
-    <!--- Gros texte d'intro sous le Nav  -->
-    <div>
-        <strong>Gros texte d'intro sous le Nav</strong>
-    </div>
+    <form>
+        <label for="nom">
+            Nom:
+        </label>
+        <input type="text" maxlength="20" required placeholder="Votre nom" id="nom">
+        <label for="prenom">
+            Prénom:
+        </label>
+        <input type="text" maxlength="20" required placeholder="Votre prénom" id="prenom">
+        <label>
+            Commentaire:
+        </label>
+        <textarea maxlength="300" placeholder="Vous pouvez laisser un commentaire ici"></textarea>
+        <label for="situation">
+            Motif de contact
+        </label>
+        <select name="liste" id="situation">
+            <option value="1">Choisissez...</option>
+            <option value="2">Signaler une erreur</option>
+            <option value="3">Signaler un lien mort</option>
+            <option value="4">Autres...</option>
+        </select> 
+    </form>
 
-    <!--- 4 icones/images : liens vers les pages concernées  -->
-
-    <div>
-        <a href="logo_HTML.png">
-            <img src="../Medias/logo_HTML.png" alt="Logo HTML" title="Logo HTML">
-        </a>
-        <a href="logo_CSS.png">
-            <img src="../Medias/logo_CSS.png" alt="Logo CSS" title="Logo CSS">
-        </a>
-        <a href="logo_JS.png">
-            <img src="../Medias/logo_JS.png" alt="Logo JS" title="Logo JS">
-        </a>
-        <a href="logo_API.png">
-            <img src="../Medias/logo_API.png" alt="Logo API" title="Logo API">
-        </a>
-    </div>
 
     <!--- Pieds de page -->
     <footer>
