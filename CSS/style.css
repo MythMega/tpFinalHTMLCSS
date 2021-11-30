@@ -48,11 +48,13 @@ nav button {
     /* background-color: #65C1F2; */
     border-radius: 0px;
     border-color: #769cb000;
+    width: max-content;
 }
 
 nav button:hover {
     /* background-color: #769CB0; */
     background-color: #65C1F2;
+    font-weight: 500;
 }
 
 .blue_btn {
