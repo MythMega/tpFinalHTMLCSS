@@ -26,12 +26,17 @@ body {
 
 nav{
     background-color:#4380A1; /*NavBar bleue*/
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
+nav button {
+    font-size: 2rem;
+    size: 20rem 6rem;
+    background-color: #65C1F2;
+}
+
+nav button:hover {
+    background-color: #769CB0;
+}
 
 .blue_btn {
     background-color: #769CB0;
@@ -43,9 +48,17 @@ nav{
     background-color: #65C1F2;
 }
 
+header {
+    margin-bottom: 25px;
+}
 
 footer {
     margin-top: 25px;
+    background-color:#4380A1;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 }
 
 article {
