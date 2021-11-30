@@ -99,31 +99,69 @@ article {
 CSS FORMULAIRE :
 ==========*/
 
+form{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column: span/3;
+    justify-content: center;
+    align-content: center;
+    border:solid 1px;
+    margin:20px 10px 10px 20%;
+    padding:3%;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+h4{
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
 .form_civil{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 0% 10% 10% 5%;
+    grid-column: 1 /span 2;
+    grid-row: 1;
+    justify-self: center;
 }
 
+input{
+    width:20vw;
+}
+
+label{
+    text-align: right;
+}
+
+ 
 .form_msg{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 20px;
+    grid-column: 1 /span 2;
+    grid-row: 2;
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .form_btn{
     display:flex;
-    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    grid-column: 1 /span 2;
+    grid-row: 3;
 }
 
-form{
-    border:solid 1px;
-    margin-top: 20px;
-    margin-bottom:20px;
-    margin-left: 10%;
-    margin-right: 10% ;
-    padding:5%;
+.form_btn{
+    height: 80px;
+    width: 150px;
 }
+
+
 
 /*==========
 FIN CSS FORMULAIRE
