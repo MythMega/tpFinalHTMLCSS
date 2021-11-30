@@ -204,6 +204,7 @@ label{
     width:80%;
     margin-right: auto;
     margin-left: auto;
+    max-width: 100%;
 }
 
 textarea{
@@ -216,13 +217,11 @@ textarea{
     margin-left: auto;
     grid-column: 1 /span 2;
     grid-row: 3;
-    /* height: 80px;
-    width: 150px; */
 }
 
-
-
-
+iframe{
+    border:solid 1px black; 
+}
 
 /*==========
 FIN CSS FORMULAIRE
@@ -257,6 +256,7 @@ CSS INDEX
 
 .index_img_button {
     padding: 25px;
+    box-shadow: 0 0 5px 4px #769CB0;
 }
 
 .index_images a:nth-of-type(1){
