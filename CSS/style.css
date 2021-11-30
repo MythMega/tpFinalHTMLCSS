@@ -243,25 +243,23 @@ CSS INDEX
 }
 
 .index_img_button {
-    /* border: 20px solid #65c1f2; */
-    padding: 15px;
-    /* background-color: rgba(0, 0, 0, 0.089); */
+    padding: 25px;
 }
 
 .index_images a:nth-of-type(1){
-    background: rgb(101, 193, 242, 0.9);
+    background: rgb(101, 193, 242, 0.4);
 }
 
 .index_images a:nth-of-type(2){
-    background: rgb(244, 168, 0, 0.9);
+    background: rgb(244, 168, 0, 0.4);
 }
 
 .index_images a:nth-of-type(3){
-    background: rgb(228, 78, 49, 0.9);
+    background: rgb(228, 78, 49, 0.4);
 }
 
 .index_images a:nth-of-type(4){
-    background: rgb(142, 193, 46, 0.9);
+    background: rgb(142, 193, 46, 0.4);
 }
 
 .index_images a:nth-of-type(1) img{
