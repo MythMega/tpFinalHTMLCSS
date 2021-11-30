@@ -30,7 +30,10 @@ body {
 nav{
     background-color:#4380A1; /* NavBar bleue */
     -webkit-animation: expand 10s;
+    /* position: fixed;
+    z-index: 999; */
 }
+
 
 @-webkit-keyframes expand{
     0%{width:65%}
