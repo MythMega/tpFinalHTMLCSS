@@ -33,3 +33,8 @@ nav{
 .blue_btn:hover {
     background-color: #65C1F2;
 }
+
+/*Class données pour le formulaire:
+.form_civil : haut du formulaire, nom, prénom, mail
+.form_msg : corps de message: motif de contact et text area
+.form_btn : les deux boutons reset et submit*/
