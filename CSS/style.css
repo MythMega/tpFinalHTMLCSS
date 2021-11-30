@@ -190,6 +190,7 @@ label{
     width:80%;
     margin-right: auto;
     margin-left: auto;
+    max-width: 100%;
 }
 
 .form_btn{
@@ -198,13 +199,11 @@ label{
     margin-left: auto;
     grid-column: 1 /span 2;
     grid-row: 3;
-    /* height: 80px;
-    width: 150px; */
 }
 
-
-
-
+iframe{
+    border:solid 1px black; 
+}
 
 /*==========
 FIN CSS FORMULAIRE
