@@ -33,3 +33,52 @@ nav{
 .blue_btn:hover {
     background-color: #65C1F2;
 }
+
+/* INDEX */
+
+.index_images {
+    height: 110vh;
+    width: 70vw;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; 
+    grid-gap: 0 0;
+    border: 2px solid blue;
+}
+
+.index_images img{
+    height: 70%;
+    width: 70%;
+}
+
+.index_images a:nth-of-type(1) img{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 5% 0 0 5%;
+    border: 2px solid red;
+}
+
+.index_images a:nth-of-type(2) img{
+    grid-column: 2 ;
+    grid-row: 1 ;
+    margin: 5% 5% 0 0;
+    border: 2px solid yellow;
+}
+
+.index_images a:nth-of-type(3) img{
+    grid-column: 1 / 2 ;
+    grid-row: 2 / 3;
+    margin: 0 0 5% 5%;
+    border: 2px solid purple;
+}
+
+.index_images a:nth-of-type(4) img{
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3;
+    margin: 0 5% 5% 0;
+    border: 2px solid green;
+}
+
+
+    
