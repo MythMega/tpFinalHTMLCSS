@@ -29,7 +29,7 @@ body {
 
 nav{
     background-color:#4380A1; /* NavBar bleue */
-    -webkit-animation: expand 10s;
+    -webkit-animation: expand 3s;
     /* position: fixed;
     z-index: 999; */
 }
@@ -37,7 +37,6 @@ nav{
 
 @-webkit-keyframes expand{
     0%{width:65%}
-    25%{width:75%}
     100%{width:100%}
 }
 
