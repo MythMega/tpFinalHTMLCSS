@@ -200,9 +200,12 @@ label{
     margin-left: auto;
     grid-column: 1 /span 2;
     grid-row: 3;
+    height: 80px;
+    width: 150px;
 }
 
-.form_btn{
+form a{
+    border:solid 1px;
     height: 80px;
     width: 150px;
 }
