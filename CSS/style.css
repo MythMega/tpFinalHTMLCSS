@@ -48,6 +48,11 @@ nav button:hover {
     background-color: #65C1F2;
 }
 
+
+
+
+
+
 header {
     margin-bottom: 25px;
 }
@@ -153,3 +158,53 @@ form{
 FIN CSS FORMULAIRE
 ==========*/
 
+/*==========
+CSS INDEX
+==========*/
+
+.index_images {
+    height: 50%;
+    width: 50%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%; 
+    grid-gap: 10%;
+    text-align: center;
+}
+
+.index_images img{
+    height: 100%;
+    width: 100%;
+}
+
+.index_img_button {
+    border: 3px solid #4380A1;
+}
+
+.index_images a:nth-of-type(1) img{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.index_images a:nth-of-type(2) img{
+    grid-column: 2 ;
+    grid-row: 1 ;
+}
+
+.index_images a:nth-of-type(3) img{
+    grid-column: 1 / 2 ;
+    grid-row: 2 / 3;
+
+}
+
+.index_images a:nth-of-type(4) img{
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3;
+}
+
+/*==========
+FIN CSS INDEX
+==========*/
