@@ -93,4 +93,29 @@ article {
 /*Class données pour le formulaire:
 .form_civil : haut du formulaire, nom, prénom, mail
 .form_msg : corps de message: motif de contact et text area
-.form_btn : les deux boutons reset et submit*/
+.form_btn : les deux boutons reset et submit
+
+==========
+CSS FORMULAIRE :
+==========*/
+
+.form_civil{
+    display:flex;
+    justify-content: center;
+}
+
+.form_msg{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_btn{
+    display:flex;
+    justify-content: center;
+}
+
+/*==========
+FIN CSS FORMULAIRE
+==========*/
+
