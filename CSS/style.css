@@ -33,8 +33,8 @@ nav{
 }
 
 @-webkit-keyframes expand{
-    0%{width:40%}
-    5%{width:45%}
+    0%{width:65%}
+    25%{width:75%}
     100%{width:100%}
 }
 
@@ -48,7 +48,7 @@ nav button {
     /* background-color: #65C1F2; */
     border-radius: 0px;
     border-color: #769cb000;
-    width: max-content;
+    width:150PX;
 }
 
 nav button:hover {
@@ -207,6 +207,10 @@ label{
     max-width: 100%;
 }
 
+textarea{
+    resize: none;
+}
+
 .form_btn{
     display:flex;
     margin-right: auto;
@@ -252,6 +256,7 @@ CSS INDEX
 
 .index_img_button {
     padding: 25px;
+    box-shadow: 0 0 5px 4px #769CB0;
 }
 
 .index_images a:nth-of-type(1){
