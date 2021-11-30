@@ -33,8 +33,8 @@ nav{
 }
 
 @-webkit-keyframes expand{
-    0%{width:40%}
-    5%{width:45%}
+    0%{width:65%}
+    25%{width:75%}
     100%{width:100%}
 }
 
@@ -48,7 +48,7 @@ nav button {
     /* background-color: #65C1F2; */
     border-radius: 0px;
     border-color: #769cb000;
-    width: max-content;
+    width:150PX;
 }
 
 nav button:hover {
@@ -82,6 +82,11 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+}
+
+footer .socials img {
+    width: 24px;
+    height: 24px;
 }
 
 article {
@@ -205,6 +210,10 @@ label{
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
+}
+
+textarea{
+    resize: none;
 }
 
 .form_btn{
