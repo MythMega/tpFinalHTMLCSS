@@ -101,7 +101,8 @@ CSS FORMULAIRE :
 
 .form_civil{
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .form_msg{
@@ -113,6 +114,15 @@ CSS FORMULAIRE :
 .form_btn{
     display:flex;
     justify-content: center;
+}
+
+form{
+    border:solid 1px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 10%;
+    margin-right: 10% ;
+    padding:5%;
 }
 
 /*==========
