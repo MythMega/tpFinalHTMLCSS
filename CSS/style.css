@@ -73,10 +73,9 @@ footer {
 }
 
 article {
-    background-color: azure;
+    background-color: rgba(0, 0, 0, 0.089);
     margin-top: 2%;
     border-style: solid;
-    border-radius: 15px;
     border-width: 1px;
     display:flex;
     justify-content: space-around;
