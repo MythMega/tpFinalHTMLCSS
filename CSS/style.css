@@ -11,12 +11,18 @@ voici les code couleurs de la charte graphique :
 
 */
 
+
+
+
 html { 
     background: url(../Medias/bg.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
   }
 
 body {
@@ -67,10 +73,9 @@ footer {
 }
 
 article {
-    background-color: azure;
+    background-color: rgba(0, 0, 0, 0.089);
     margin-top: 2%;
     border-style: solid;
-    border-radius: 15px;
     border-width: 1px;
     display:flex;
     justify-content: space-around;
@@ -104,6 +109,14 @@ article {
 
 h1 {
     text-align: center;
+    font-weight: 500;
+    color: #2E576E;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    color: #002336;
 }
 
 .centered {
