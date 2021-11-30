@@ -84,6 +84,11 @@ footer {
     flex-direction: row;
 }
 
+footer .socials img {
+    width: 24px;
+    height: 24px;
+}
+
 article {
     background-color: rgba(0, 0, 0, 0.089);
     margin-top: 2%;
