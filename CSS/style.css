@@ -248,6 +248,7 @@ CSS INDEX
 
 .index_images img:hover{
     transform: scale(1.05);
+    transition-duration: 1s;
 }
 
 .index_img_button {
