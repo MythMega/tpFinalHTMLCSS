@@ -97,6 +97,17 @@ article {
     text-align: right;
 }
 
+h1 {
+    text-align: center;
+}
+
+.centered {
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .article_corp img {
     margin-right: 10px;
     margin-left: 10px;
