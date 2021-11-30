@@ -29,7 +29,7 @@ body {
 
 nav{
     background-color:#4380A1; /* NavBar bleue */
-    -webkit-animation: expand 5s;
+    -webkit-animation: expand 10s;
 }
 
 @-webkit-keyframes expand{
@@ -84,10 +84,40 @@ footer {
     flex-direction: row;
 }
 
+footer div {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#footer_links {
+    width: 80%;
+}
+
+#footer_links div a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer_links div a:hover {
+    color: #65C1F2;
+    text-decoration: underline;
+}
+
+
+
+#footer_icon {
+    width: 20%;
+    justify-content: right;
+}
+
 footer .socials img {
     width: 24px;
     height: 24px;
 }
+
+
 
 article {
     background-color: rgba(0, 0, 0, 0.089);
