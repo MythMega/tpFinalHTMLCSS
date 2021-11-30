@@ -48,11 +48,13 @@ nav button {
     /* background-color: #65C1F2; */
     border-radius: 0px;
     border-color: #769cb000;
+    width: max-content;
 }
 
 nav button:hover {
     /* background-color: #769CB0; */
     background-color: #65C1F2;
+    font-weight: 500;
 }
 
 .blue_btn {
@@ -202,6 +204,7 @@ label{
     width:80%;
     margin-right: auto;
     margin-left: auto;
+    max-width: 100%;
 }
 
 .form_btn{
@@ -210,13 +213,11 @@ label{
     margin-left: auto;
     grid-column: 1 /span 2;
     grid-row: 3;
-    /* height: 80px;
-    width: 150px; */
 }
 
-
-
-
+iframe{
+    border:solid 1px black; 
+}
 
 /*==========
 FIN CSS FORMULAIRE
