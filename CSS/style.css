@@ -32,15 +32,20 @@ nav{
 }
 
 nav button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
     font-size: 2rem;
     size: 20rem 6rem;
-    background-color: #65C1F2;
+    background-color: #769CB0;
+    /* background-color: #65C1F2; */
     border-radius: 0px;
     border-color: #769cb000;
 }
 
 nav button:hover {
-    background-color: #769CB0;
+    /* background-color: #769CB0; */
+    background-color: #65C1F2;
 }
 
 .blue_btn {
