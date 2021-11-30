@@ -33,3 +33,40 @@ nav{
 .blue_btn:hover {
     background-color: #65C1F2;
 }
+
+footer {
+    margin-top: 25px;
+}
+
+article {
+    margin-top: 2%;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article_corp {
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.article_corp .article_content {
+    display:flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+}
+
+.article_corp img {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
