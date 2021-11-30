@@ -251,6 +251,7 @@ CSS INDEX
 
 .index_img_button {
     padding: 25px;
+    box-shadow: 0 0 5px 4px #769CB0;
 }
 
 .index_images a:nth-of-type(1){
