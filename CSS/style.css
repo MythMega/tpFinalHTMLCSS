@@ -29,7 +29,7 @@ body {
 
 nav{
     background-color:#4380A1; /* NavBar bleue */
-    -webkit-animation: expand 5s;
+    -webkit-animation: expand 10s;
 }
 
 @-webkit-keyframes expand{
@@ -83,6 +83,41 @@ footer {
     align-items: center;
     flex-direction: row;
 }
+
+footer div {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#footer_links {
+    width: 80%;
+}
+
+#footer_links div a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer_links div a:hover {
+    color: #65C1F2;
+    text-decoration: underline;
+}
+
+
+
+#footer_icon {
+    width: 20%;
+    justify-content: right;
+}
+
+footer .socials img {
+    width: 24px;
+    height: 24px;
+}
+
+
 
 article {
     background-color: rgba(0, 0, 0, 0.089);
@@ -232,8 +267,8 @@ CSS INDEX
 ==========*/
 
 .index_images {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     margin-top: 4%;
     margin-left: auto;
     margin-right: auto;
@@ -252,11 +287,14 @@ CSS INDEX
 
 .index_images img:hover{
     transform: scale(1.05);
+    transition-duration: 1s;
 }
 
 .index_img_button {
     padding: 25px;
-    box-shadow: 0 0 5px 4px #769CB0;
+    border-radius: 1px;
+    box-shadow: 0 0 10px 1px black;
+    /* box-shadow: 0 0 5px 4px #769CB0; */
 }
 
 .index_images a:nth-of-type(1){
