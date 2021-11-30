@@ -237,8 +237,8 @@ CSS INDEX
 ==========*/
 
 .index_images {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     margin-top: 4%;
     margin-left: auto;
     margin-right: auto;
@@ -262,7 +262,9 @@ CSS INDEX
 
 .index_img_button {
     padding: 25px;
-    box-shadow: 0 0 5px 4px #769CB0;
+    border-radius: 1px;
+    box-shadow: 0 0 10px 1px black;
+    /* box-shadow: 0 0 5px 4px #769CB0; */
 }
 
 .index_images a:nth-of-type(1){
