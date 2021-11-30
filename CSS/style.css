@@ -32,19 +32,30 @@ nav{
 }
 
 nav button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
     font-size: 2rem;
     size: 20rem 6rem;
-    background-color: #65C1F2;
+    background-color: #769CB0;
+    /* background-color: #65C1F2; */
+    border-radius: 0px;
+    border-color: #769cb000;
 }
 
 nav button:hover {
-    background-color: #769CB0;
+    /* background-color: #769CB0; */
+    background-color: #65C1F2;
 }
 
 .blue_btn {
     background-color: #769CB0;
     color: aliceblue;
-    border-radius: 5px;
+    border-radius: 0px;
+    border-color: #769cb000;
+    margin-right: 10px;
+    width: 150px;
+    height: 60px;
 }
 
 .blue_btn:hover {
@@ -192,15 +203,11 @@ label{
     margin-left: auto;
     grid-column: 1 /span 2;
     grid-row: 3;
-    height: 80px;
-    width: 150px;
+    /* height: 80px;
+    width: 150px; */
 }
 
-form a{
-    border:solid 1px;
-    height: 80px;
-    width: 150px;
-}
+
 
 
 
