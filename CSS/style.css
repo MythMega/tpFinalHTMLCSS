@@ -29,18 +29,32 @@ body {
 
 nav{
     background-color:#4380A1; /* NavBar bleue */
+    -webkit-animation: expand 5s;
+}
+
+@-webkit-keyframes expand{
+    0%{width:40%}
+    5%{width:45%}
+    100%{width:100%}
 }
 
 nav button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
     font-size: 2rem;
     size: 20rem 6rem;
-    background-color: #65C1F2;
+    background-color: #769CB0;
+    /* background-color: #65C1F2; */
     border-radius: 0px;
     border-color: #769cb000;
+    width: max-content;
 }
 
 nav button:hover {
-    background-color: #769CB0;
+    /* background-color: #769CB0; */
+    background-color: #65C1F2;
+    font-weight: 500;
 }
 
 .blue_btn {
@@ -237,24 +251,23 @@ CSS INDEX
 }
 
 .index_img_button {
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.089);
+    padding: 25px;
 }
 
 .index_images a:nth-of-type(1){
-    border: 20px solid #65c1f2;
+    background: rgb(101, 193, 242, 0.4);
 }
 
 .index_images a:nth-of-type(2){
-    border: 20px solid #f4a800;
+    background: rgb(244, 168, 0, 0.4);
 }
 
 .index_images a:nth-of-type(3){
-    border: 20px solid #e44e31;
+    background: rgb(228, 78, 49, 0.4);
 }
 
 .index_images a:nth-of-type(4){
-    border: 20px solid #8ec12e;
+    background: rgb(142, 193, 46, 0.4);
 }
 
 .index_images a:nth-of-type(1) img{
