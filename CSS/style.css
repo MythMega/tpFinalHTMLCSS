@@ -11,6 +11,14 @@ voici les code couleurs de la charte graphique :
 
 */
 
+html { 
+    background: url(../Medias/bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 body {
     margin-left: 3%;
     margin-right: 3%;
@@ -18,10 +26,16 @@ body {
 
 nav{
     background-color:#4380A1; /*NavBar bleue*/
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+}
+
+nav button {
+    font-size: 2rem;
+    size: 20rem 6rem;
+    background-color: #65C1F2;
+}
+
+nav button:hover {
+    background-color: #769CB0;
 }
 
 .blue_btn {
@@ -34,7 +48,108 @@ nav{
     background-color: #65C1F2;
 }
 
-/* INDEX */
+
+
+
+
+
+header {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin-top: 25px;
+    background-color:#4380A1;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+article {
+    background-color: azure;
+    margin-top: 2%;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article_corp {
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#instruction_content article:nth-child(even) .article_corp {
+    flex-direction: row-reverse;
+}
+
+.article_corp .article_content {
+    display:flex;
+    justify-content: space-around;
+    text-align: left;
+    flex-direction: column;
+}
+
+#instruction_content article:nth-child(even) .article_corp .article_content {
+    text-align: right;
+}
+
+.article_corp img {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/*Class données pour le formulaire:
+.form_civil : haut du formulaire, nom, prénom, mail
+.form_msg : corps de message: motif de contact et text area
+.form_btn : les deux boutons reset et submit
+
+==========
+CSS FORMULAIRE :
+==========*/
+
+.form_civil{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form_msg{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_btn{
+    display:flex;
+    justify-content: center;
+}
+
+form{
+    border:solid 1px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 10%;
+    margin-right: 10% ;
+    padding:5%;
+}
+
+/*==========
+FIN CSS FORMULAIRE
+==========*/
+
+/*==========
+CSS INDEX
+==========*/
 
 .index_images {
     height: 50%;
@@ -47,7 +162,6 @@ nav{
     grid-template-rows: 45% 45%; 
     grid-gap: 10%;
     text-align: center;
-    /* border: 2px solid #4380A1; */
 }
 
 .index_images img{
@@ -62,30 +176,24 @@ nav{
 .index_images a:nth-of-type(1) img{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    /* margin: 5% 0 0 5%; */
-    /* border: 2px solid blue; */
 }
 
 .index_images a:nth-of-type(2) img{
     grid-column: 2 ;
     grid-row: 1 ;
-    /* margin: 5% 5% 0 0; */
-    /* border: 2px solid yellow; */
 }
 
 .index_images a:nth-of-type(3) img{
     grid-column: 1 / 2 ;
     grid-row: 2 / 3;
-    /* margin: 0 0 5% 5%; */
-    /* border: 2px solid purple; */
+
 }
 
 .index_images a:nth-of-type(4) img{
     grid-column: 2 / 3 ;
     grid-row: 2 / 3;
-    /* margin: 0 5% 5% 0; */
-    /* border: 2px solid green; */
 }
 
-
-    
+/*==========
+FIN CSS INDEX
+==========*/

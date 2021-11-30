@@ -3,10 +3,12 @@
 <head>
     <!--- Infos de pages -->
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
     <link rel="icon" href="../Medias/favicon.png"/>
     <!-- Un seul fichier CSS, commun à toutes les pages -->
     <link rel="stylesheet" href="../CSS/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- TITRE DE LA PAGE, CHANGEZ A CHAQUES PAGE -->
     <title>Page de base</title>
 </head>
@@ -23,35 +25,41 @@
         </nav>
     </header>
     <!--- Contenu (PlaceHolder)-->
-
+    <h3>Pour toutes demandes de renseignements ou pour signaler des problèmes rencontrés sur notre site, merci d'utiliser le formulaire ci-dessous.</h3>
     <form method="post" action="">
-        <label for="nom">
-            Nom:
-        </label>
-        <input type="text" maxlength="20" required placeholder="Votre nom" id="nom">
-        <label for="prenom">
-            Prénom:
-        </label>
-        <input type="text" maxlength="20" required placeholder="Votre prénom" id="prenom">
-        <label for="email">
-            Votre e-Mail::
-        </label>
-        <input type="email" maxlength="30" required placeholder="votre@e.mail" id="email">
-        <label>
-            Commentaire:
-        </label>
-        <textarea maxlength="300" placeholder="Vous pouvez laisser un commentaire ici"></textarea>
-        <label for="situation">
-            Motif de contact
-        </label>
-        <select name="liste" id="situation">
-            <option value="1">Choisissez...</option>
-            <option value="2">Signaler une erreur</option>
-            <option value="3">Signaler un lien mort</option>
-            <option value="4">Autres...</option>
-        </select> 
-        <input type="reset" value="Effacer le formulaire" class="blue_btn">
-        <a href="contact_ended.html"><input type="button" value="envoyer" class="blue_btn"></a>
+        <div class="form_civil">
+            <label for="nom">
+                Nom:
+            </label>
+            <input type="text" maxlength="20" required placeholder="Votre nom" id="nom">
+            <label for="prenom">
+                Prénom:
+            </label>
+            <input type="text" maxlength="20" required placeholder="Votre prénom" id="prenom">
+            <label for="email">
+                Votre e-Mail::
+            </label>
+            <input type="email" maxlength="30" required placeholder="votre@e.mail" id="email">
+        </div>
+        <div class="form_msg">
+            <label for="motif">
+                Motif de contact
+            </label>
+            <select name="liste" id="motif">
+                <option value="1">Choisissez...</option>
+                <option value="2">Question</option>
+                <option value="3">Signaler une erreur / un lien mort</option>
+                <option value="4">Autres...</option>
+            </select> 
+            <label>
+                Votre message:
+            </label>
+            <textarea maxlength="300" placeholder="Votre message ici"></textarea>
+        </div>
+        <div class="form_btn">
+            <input type="reset" value="Effacer le formulaire" class="blue_btn">
+            <a href="contact_ended.html"><input type="button" value="envoyer" class="blue_btn"></a>
+        </div>
     </form>
 
 
