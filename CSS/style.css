@@ -26,12 +26,17 @@ body {
 
 nav{
     background-color:#4380A1; /*NavBar bleue*/
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
+nav button {
+    font-size: 2rem;
+    size: 20rem 6rem;
+    background-color: #65C1F2;
+}
+
+nav button:hover {
+    background-color: #769CB0;
+}
 
 .blue_btn {
     background-color: #769CB0;
@@ -44,8 +49,21 @@ nav{
 }
 
 
+
+
+
+
+header {
+    margin-bottom: 25px;
+}
+
 footer {
     margin-top: 25px;
+    background-color:#4380A1;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 }
 
 article {
@@ -82,6 +100,17 @@ article {
 
 #instruction_content article:nth-child(even) .article_corp .article_content {
     text-align: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+.centered {
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .article_corp img {
@@ -167,3 +196,53 @@ label{
 FIN CSS FORMULAIRE
 ==========*/
 
+/*==========
+CSS INDEX
+==========*/
+
+.index_images {
+    height: 50%;
+    width: 50%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%; 
+    grid-gap: 10%;
+    text-align: center;
+}
+
+.index_images img{
+    height: 100%;
+    width: 100%;
+}
+
+.index_img_button {
+    border: 3px solid #4380A1;
+}
+
+.index_images a:nth-of-type(1) img{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.index_images a:nth-of-type(2) img{
+    grid-column: 2 ;
+    grid-row: 1 ;
+}
+
+.index_images a:nth-of-type(3) img{
+    grid-column: 1 / 2 ;
+    grid-row: 2 / 3;
+
+}
+
+.index_images a:nth-of-type(4) img{
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3;
+}
+
+/*==========
+FIN CSS INDEX
+==========*/
