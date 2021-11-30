@@ -11,27 +11,24 @@ voici les code couleurs de la charte graphique :
 
 */
 
-
-
-
 html { 
-    background: url(../Medias/bg.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
+    background: url(../Medias/bg.png) no-repeat center center fixed; /*                         */
+    -webkit-background-size: cover;                                  /*                         */
+    -moz-background-size: cover;                                     /* code pour le background */
+    -o-background-size: cover;                                       /*                         */
+    background-size: cover;                                          /*                         */
+    font-family: 'Montserrat', sans-serif; /*définit l'écriture sur Montserrat*/
     font-weight: 300;
 
   }
 
 body {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 3%;   /* petite bordure  */
+    margin-right: 3%;  /* sur les cotés   */
 }
 
 nav{
-    background-color:#4380A1; /*NavBar bleue*/
+    background-color:#4380A1; /* NavBar bleue */
 }
 
 nav button {
@@ -53,11 +50,6 @@ nav button:hover {
 .blue_btn:hover {
     background-color: #65C1F2;
 }
-
-
-
-
-
 
 header {
     margin-bottom: 25px;
@@ -115,6 +107,7 @@ h1 {
     text-align: center;
     font-weight: 500;
     color: #2E576E;
+    font-size: 3rem;
 }
 
 h2 {
