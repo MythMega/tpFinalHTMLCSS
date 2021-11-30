@@ -34,7 +34,7 @@ nav{
     background-color: #65C1F2;
 }
 
-<<<<<<< HEAD
+
 footer {
     margin-top: 25px;
 }
@@ -59,11 +59,20 @@ article {
     flex-direction: row;
 }
 
+#instruction_content article:nth-child(even) .article_corp {
+    flex-direction: row-reverse;
+}
+
+
 .article_corp .article_content {
     display:flex;
     justify-content: space-around;
-    align-items: left;
+    text-align: left;
     flex-direction: column;
+}
+
+#instruction_content article:nth-child(even) .article_corp .article_content {
+    text-align: right;
 }
 
 .article_corp img {
