@@ -181,7 +181,9 @@ h2 {
 
 .article_corp img {
     margin-right: 10px;
+    margin-right: 12vh;
     margin-left: 10px;
+    margin-left: 12vh;
     margin-bottom: 10px;
     width: 25vw;
     height: auto;
