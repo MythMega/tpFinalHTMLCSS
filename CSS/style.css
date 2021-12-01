@@ -27,6 +27,9 @@ body {
     margin-right: 3%;  /* sur les cotés   */
 }
 
+
+
+
 nav{
     background-color:#4380A1; /* NavBar bleue */
     -webkit-animation: expand 3s;
@@ -39,6 +42,10 @@ nav{
     0%{width:65%}
     100%{width:100%}
 }
+
+
+
+
 
 nav button {
     font-family: 'Montserrat', sans-serif;
@@ -181,13 +188,36 @@ h2 {
 
 .article_corp img {
     margin-right: 10px;
+    margin-right: 12vh;
     margin-left: 10px;
+    margin-left: 12vh;
     margin-bottom: 10px;
     width: 25vw;
     height: auto;
 }
 
-
+@media screen and (max-width: 800px){
+    .article_corp {
+        margin-left: 5px;
+        margin-right: 5px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .article_content {
+        width: 70vw;
+    }
+    .article_corp img {
+        width: 70vw;
+    }
+    #instruction_content article:nth-child(even) .article_corp{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+}
 
 /*Class données pour le formulaire:
 .form_civil : haut du formulaire, nom, prénom, mail
