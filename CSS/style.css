@@ -12,7 +12,7 @@ voici les code couleurs de la charte graphique :
 */
 
 html { 
-    background: url(../Medias/bg.png) no-repeat center center fixed; /*                         */
+    background: url(../Medias//utils/bg.png) no-repeat center center fixed; /*                         */
     -webkit-background-size: cover;                                  /*                         */
     -moz-background-size: cover;                                     /* code pour le background */
     -o-background-size: cover;                                       /*                         */
@@ -33,6 +33,10 @@ body {
 nav{
     background-color:#4380A1; /* NavBar bleue */
     -webkit-animation: expand 3s;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
     /* position: fixed;
     z-index: 999; */
 }
@@ -202,6 +206,15 @@ h2 {
 }
 
 @media screen and (max-width: 800px){
+    nav{
+        display:flex;
+        justify-content:space-evenly;
+        align-items: flex-start;
+        flex-direction: column;
+        /* position: fixed;
+        z-index: 999; */
+    }
+    
     .article_corp {
         margin-left: 5px;
         margin-right: 5px;
