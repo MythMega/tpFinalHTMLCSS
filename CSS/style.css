@@ -421,6 +421,78 @@ FIN CSS INDEX
     partie index
     */
 
+    .index_images {
+        height: 40vh;
+        width: 40vw;
+        margin-top: 4%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 49% 49%;
+        grid-template-rows: 49% 49%; 
+        grid-gap: 2%;
+        text-align: center;
+    }
+    
+    .index_images img{
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    .index_images img:hover{
+        transform: scale(1.05);
+        transition-duration: 1s;
+    }
+    
+    .index_img_button {
+        width: 145px;
+        height: 185px;
+        padding: 25px;
+        border-radius: 1px;
+        box-shadow: 0 0 10px 1px black;
+        /* box-shadow: 0 0 5px 4px #769CB0; */
+    }
+    
+    .index_images a:nth-of-type(1){
+        background: rgb(101, 193, 242, 0.4);
+    }
+    
+    .index_images a:nth-of-type(2){
+        background: rgb(244, 168, 0, 0.4);
+    }
+    
+    .index_images a:nth-of-type(3){
+        background: rgb(228, 78, 49, 0.4);
+    }
+    
+    .index_images a:nth-of-type(4){
+        background: rgb(142, 193, 46, 0.4);
+    }
+    
+    .index_images a:nth-of-type(1) img{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .index_images a:nth-of-type(2) img{
+        grid-column: 2 ;
+        grid-row: 1 ;
+    }
+    
+    .index_images a:nth-of-type(3) img{
+        grid-column: 1 / 2 ;
+        grid-row: 2 / 3;
+    
+    }
+    
+    .index_images a:nth-of-type(4) img{
+        grid-column: 2 / 3 ;
+        grid-row: 2 / 3;
+    }
+    
+
+
     /*
     partie article
     */
@@ -438,5 +510,8 @@ FIN CSS INDEX
     }
     #form_btn_send{
         margin-top: 10px;
+    }
+    .form_civil input{
+        min-width: 200px;
     }
 }
