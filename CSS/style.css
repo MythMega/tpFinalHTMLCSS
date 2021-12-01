@@ -403,9 +403,9 @@ FIN CSS INDEX
     }
     
     .index_img_button {
-        width: 145px;
-        height: 185px;
-        padding: 25px;
+        width: 45px;
+        height: 85px;
+        padding: 25% 25%;
         border-radius: 1px;
         box-shadow: 0 0 10px 1px black;
         /* box-shadow: 0 0 5px 4px #769CB0; */
