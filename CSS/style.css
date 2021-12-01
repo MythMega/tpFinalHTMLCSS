@@ -353,9 +353,9 @@ form + div{
 FIN CSS FORMULAIRE
 ==========*/
 
-/*==========
+/*=========================================================================================
 CSS INDEX
-==========*/
+===========================================================================================*/
 
 .index_images {
     height: 40%;
@@ -435,15 +435,15 @@ FIN CSS INDEX
     */
 
     .index_images {
-        height: 40vh;
-        width: 40vw;
-        margin-top: 4%;
+        height: 240px;
+        width: 180px;
+        /* margin-top: 4%;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; */
         display: grid;
-        grid-template-columns: 49% 49%;
-        grid-template-rows: 49% 49%; 
-        grid-gap: 2%;
+        grid-template-columns: 80px 80px;
+        grid-template-rows: 110px 110px; 
+        grid-gap: 20px 20px;
         text-align: center;
     }
     
@@ -459,9 +459,7 @@ FIN CSS INDEX
     }
     
     .index_img_button {
-        width: 145px;
-        height: 185px;
-        padding: 25px;
+        padding: 5px 5px;
         border-radius: 1px;
         box-shadow: 0 0 10px 1px black;
         /* box-shadow: 0 0 5px 4px #769CB0; */
