@@ -27,7 +27,22 @@ body {
     margin-right: 3%;  /* sur les cotés   */
 }
 
+#banner {
+    background: url(../Medias/utils/banner.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
 
+#banner_img {
+    height: 128px;
+    width: auto;
+}
 
 
 nav{
