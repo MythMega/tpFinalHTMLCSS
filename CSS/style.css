@@ -1,5 +1,4 @@
 /*
-
 Petit mémo si jamais :
 voici les code couleurs de la charte graphique :
 - #2E576E (gros titres)
@@ -7,8 +6,6 @@ voici les code couleurs de la charte graphique :
 - #4380A1 (fond (avec de l'alpha))  
 - #769CB0 (bouton)
 - #65C1F2 (hover sur certains elements de type btn)
-
-
 */
 
 html { 
@@ -44,7 +41,6 @@ body {
     width: auto;
 }
 
-
 nav{
     background-color:#4380A1; /* NavBar bleue */
     -webkit-animation: expand 3s;
@@ -56,15 +52,10 @@ nav{
     z-index: 999; */
 }
 
-
 @-webkit-keyframes expand{
     0%{width:65%}
     100%{width:100%}
 }
-
-
-
-
 
 nav button {
     font-family: 'Montserrat', sans-serif;
@@ -73,14 +64,12 @@ nav button {
     font-size: 1.4rem;
     size: 16rem 6rem;
     background-color: #769CB0;
-    /* background-color: #65C1F2; */
     border-radius: 0px;
     border-color: #769cb000;
     width:140PX;
 }
 
 nav button:hover {
-    /* background-color: #769CB0; */
     background-color: #65C1F2;
     font-weight: 500;
 }
@@ -134,8 +123,6 @@ footer div {
     color: #65C1F2;
 }
 
-
-
 #footer_icon {
     display:flex;
     justify-content: space-around;
@@ -149,8 +136,6 @@ footer .socials img {
     width: 24px;
     height: 24px;
 }
-
-
 
 article {
     background-color: rgba(0, 0, 0, 0.089);
@@ -226,8 +211,6 @@ h2 {
         justify-content:space-evenly;
         align-items: flex-start;
         flex-direction: column;
-        /* position: fixed;
-        z-index: 999; */
     }
     
     .article_corp {
@@ -334,7 +317,6 @@ label{
     text-align: right;
 }
 
- 
 .form_msg{
     display:flex;
     flex-direction: column;
@@ -452,9 +434,6 @@ FIN CSS INDEX
     .index_images {
         height: 240px;
         width: 180px;
-        /* margin-top: 4%;
-        margin-left: auto;
-        margin-right: auto; */
         display: grid;
         grid-template-columns: 80px 80px;
         grid-template-rows: 110px 110px; 
@@ -477,7 +456,6 @@ FIN CSS INDEX
         padding: 5px 5px;
         border-radius: 1px;
         box-shadow: 0 0 10px 1px black;
-        /* box-shadow: 0 0 5px 4px #769CB0; */
     }
     
     .index_images a:nth-of-type(1){
@@ -517,8 +495,6 @@ FIN CSS INDEX
         grid-row: 2 / 3;
     }
     
-
-
     /*
     partie article
     */
