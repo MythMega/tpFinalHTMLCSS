@@ -468,4 +468,7 @@ FIN CSS INDEX
     #form_btn_send{
         margin-top: 10px;
     }
+    .form_civil input{
+        min-width: 200px;
+    }
 }
