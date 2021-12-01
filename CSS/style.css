@@ -16,7 +16,6 @@ html {
     background-size: cover;                                          /*                         */
     font-family: 'Montserrat', sans-serif; /*définit l'écriture sur Montserrat*/
     font-weight: 300;
-
   }
 
 body {
@@ -48,8 +47,6 @@ nav{
     justify-content:space-evenly;
     align-items: flex-start;
     flex-direction: row;
-    /* position: fixed;
-    z-index: 999; */
 }
 
 @-webkit-keyframes expand{
@@ -64,8 +61,6 @@ nav button {
     font-size: 1.4rem;
     size: 16rem 6rem;
     background-color: #769CB0;
-    border-radius: 0px;
-    border-color: #769cb000;
     width:140PX;
 }
 
@@ -74,11 +69,14 @@ nav button:hover {
     font-weight: 500;
 }
 
+button, #form_btn_send, #form_btn_reset {
+    border-radius: 0px;
+    border-color: #769cb000;
+}
+
 .blue_btn {
     background-color: #769CB0;
     color: aliceblue;
-    border-radius: 0px;
-    border-color: #769cb000;
     margin-right: 10px;
     width: 150px;
     height: 60px;
@@ -121,6 +119,8 @@ footer div {
 
 #footer_links div a:hover {
     color: #65C1F2;
+    transform: scale(1.1);
+    transition-duration: 1s;
 }
 
 #footer_icon {
@@ -175,15 +175,17 @@ article div:nth-child(odd) {
     text-align: right;
 }
 
-h1 {
+
+h1, h2, #form_txt, .index_images {
     text-align: center;
+}
+h1 {
     font-weight: 500;
     color: #2E576E;
     font-size: 3rem;
 }
 
 h2 {
-    text-align: center;
     font-weight: 400;
     color: #002336;
 }
@@ -203,6 +205,11 @@ h2 {
     margin-bottom: 10px;
     width: 25vw;
     height: auto;
+}
+
+.socials a img:hover {
+    transform: rotate(-30deg);
+    transition-duration: 1s;
 }
 
 @media screen and (max-width: 800px){
@@ -266,7 +273,14 @@ h2 {
         justify-content:space-evenly;
         align-items: center;
         flex-direction: row;
+        
     }
+
+    .socials a img {
+        transform: scale(1.35);
+        transition-duration: 1s;
+    }
+
 
     .socials {
         margin: 0.5em;
@@ -295,9 +309,6 @@ form{
     background-color: rgba(0, 0, 0, 0.089);
 }
 
-#form_txt{
-    text-align: center;
-}
 
 .form_civil{
     display:flex;
@@ -364,7 +375,6 @@ CSS INDEX
     grid-template-columns: 49% 49%;
     grid-template-rows: 49% 49%; 
     grid-gap: 2%;
-    text-align: center;
 }
 
 .index_images img{
@@ -373,7 +383,7 @@ CSS INDEX
     
 }
 
-.index_images img:hover{
+img:hover{
     transform: scale(1.05);
     transition-duration: 1s;
 }
